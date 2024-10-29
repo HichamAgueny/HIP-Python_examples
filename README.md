@@ -12,7 +12,7 @@ salloc -A project_465001310 -t 00:30:00 -p dev-g -N 1 --gpus 1
 ```
 
 # To install hip-python & numpy packages in a virtual environment 
-## Load modules
+## Load the LUMI software stack
 ```
 module load LUMI/24.03 partition/G
 module load cpeCray
@@ -29,7 +29,16 @@ python -m pip install numpy
 # To launch a python script in an interactive session
 ```
 salloc -A project_465001310 -t 00:30:00 -p dev-g -N 1 --gpus 1
+```
 
+## Load the LUMI software stack
+```
+module load LUMI/24.03 partition/G
+module load cpeCray
+module load cray-python/3.11.7
+```
+## Source the Virt. Env. and launch the python script 
+```
 source MyVirtEnv_hip_pyt/bin/activate
 
 srun python example1_DeviceProp/deviceProp.py
