@@ -6,7 +6,7 @@ This directory contains 3 basic examples of how to use HIP Python interface:
 
 **(iii)** To compile and launch device kernels (see `example3_DeviceKernels/deviceKernels.py`)
  
-# To launch an interactive session:
+# To launch an interactive session on the supercomputer [LUMI-G](https://docs.lumi-supercomputer.eu/):
 ```
 salloc -A project_465001310 -t 00:30:00 -p dev-g -N 1 --gpus 1
 ```
