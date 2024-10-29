@@ -1,0 +1,1 @@
+salloc -A project_465001310 -t 00:30:00 -p dev-g -N 1 --gpus 1
