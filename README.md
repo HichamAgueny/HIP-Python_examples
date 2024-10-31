@@ -46,4 +46,4 @@ srun python example2_MemoryManagemnt/memoryManagemnt.py
 srun python example3_DeviceKernels/deviceKernels.py
 ```
 
-More examples can be found [here](https://rocm.docs.amd.com/projects/hip-python/en/latest/user_guide/1_usage.html)
+More examples can be found [here](https://github.com/ROCm/hip-python) and a detailed guide is available [here](https://rocm.docs.amd.com/projects/hip-python/en/latest/index.html).
