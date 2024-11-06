@@ -4,7 +4,7 @@ This directory contains 4 basic examples of how to use HIP Python interface:
 
 **(ii)**  To manage memory i.e. allocate/deallocate device memory and transfer data between host and device (see `example2_MemoryManagemnt/memoryManagemnt.py`)
 
-**(iii)**  To run hipblasSum (see `example3_HipBlas/hipblasSum.py`)
+**(iii)**  To run hipblasSasum (see `example3_HipBlas/hipblasSum.py`)
 
 **(iv)** To compile and launch device kernels (see `example4_DeviceKernels/deviceKernels.py`)
 
