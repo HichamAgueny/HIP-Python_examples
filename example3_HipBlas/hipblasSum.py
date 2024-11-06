@@ -22,7 +22,7 @@ def hip_check(call_result):
 # Generate random 1D-array
 N = 10 #length
 host_data = np.random.rand(N).astype(np.float32) 
-sum_np = np.sum(host_data)
+sum_np = np.sum(np.abs(host_data))
 
 # Allocate device memory
 num_bytes = N * np.float32().itemsize
