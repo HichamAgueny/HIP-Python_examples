@@ -43,7 +43,7 @@ hip_check(hipblas.hipblasSasum(handle, N, device_data, 1, result_d))
 # Destroy handle
 hip_check(hipblas.hipblasDestroy(handle))
 
-# copy the result (stored in result_d) back to host (store in result_h)
+# Copy the output result_d from the device to the host
 result_h = np.zeros(1, dtype=np.float32)
 hip_check(hip.hipMemcpy(result_h, result_d, num_bytes_r, hip.hipMemcpyKind.hipMemcpyDeviceToHost))
 
